@@ -13,17 +13,7 @@ export default function Resume() {
         justifyContent: "center",
       }}
     >
-      <iframe
-        src="/resume.pdf"
-        title="My Resume"
-        style={{
-          width: "90%",
-          height: "90%",
-          border: "none",
-          borderRadius: "12px",
-        }}
-      ></iframe>
-      <div style={{display:"flex"}}>
+      <div style={{ display: "flex" }}>
         <button
           onClick={() => (window.location.href = "/")}
           style={{
@@ -59,6 +49,16 @@ export default function Resume() {
           Download Resume
         </a>
       </div>
+      <iframe
+        src="/resume.pdf"
+        title="My Resume"
+        style={{
+          width: "90%",
+          height: "90%",
+          border: "none",
+          borderRadius: "12px",
+        }}
+      ></iframe>
     </div>
   );
 }
