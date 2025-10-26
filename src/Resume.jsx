@@ -17,7 +17,7 @@ export default function Resume() {
         <button
           onClick={() => (window.location.href = "/")}
           style={{
-            marginTop: "15px",
+            margin: "15px",
             marginRight: "10px",
             color: "#fff",
             background: "#2196f3",
@@ -34,7 +34,7 @@ export default function Resume() {
           href="/resume.pdf"
           download="Shankar_Nidadavolu_Resume.pdf"
           style={{
-            marginTop: "15px",
+            margin: "15px",
             color: "#2196f3",
             textDecoration: "none",
             fontWeight: "600",
