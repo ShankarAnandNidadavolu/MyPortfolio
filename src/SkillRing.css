@@ -1,0 +1,49 @@
+.skills-container {
+  text-align: center;
+  margin: 5% 10%;
+}
+
+.skills-heading {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.skill-svg{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 700px){
+    .skills-grid{
+        gap: 10px;
+    }
+}
+
+.skill-ring {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.skill-ring svg {
+  transform: rotate(-90deg);
+}
+
+.skill-ring circle {
+  transition: stroke-dashoffset 1.5s ease;
+}
+
+.ring-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+}
