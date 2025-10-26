@@ -297,7 +297,9 @@ body {
 .proj2photoimg {
   width: 100%;
   box-sizing: border-box;
-  border-radius: 30px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  
 }
 .proj2para {
   color: gray;
@@ -418,6 +420,10 @@ body {
     background-size: 500% 2000px;
     background-position: 5% center;
   }
+  .firstbg{
+    background-size: 100% 1000px;
+    background-position: 50% right;
+  }
   .nav-links {
     box-sizing: border-box;
     flex: 0 0 60%;
@@ -433,11 +439,14 @@ body {
     align-items: center;
     font-size: 1.5vh;
   }
+  .navitems{
+    font-size: 1.5vh;
+  }
 
   .infodiv {
     flex-direction: column;
 
-    height: 70vh;
+    height: auto;
     margin-right: 1%;
     margin-left: 1%;
     align-items: center;
@@ -445,11 +454,12 @@ body {
   }
   .left {
     order: 2;
-    flex: 0 0 50%;
+    flex: 0 0 60%;
     width: 90%;
     margin-right: 0;
     margin-left: 0;
     height: 100%;
+    padding-top: 2vh;
     overflow-x: hidden;
   }
   .lefttop {
@@ -457,16 +467,19 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     flex: 0 0 50%;
-    margin-bottom: 10%;
+    height: 10vh;
+    margin-bottom: 3vh;
   }
   .leftbottom {
     flex: 0 0 30%;
   }
   .right {
     order: 1;
-    flex: 0 0 50%;
+    flex: 0 0 40%;
     justify-content: center;
     padding-right: 0;
+    box-sizing: border-box;
+    padding-top: 2vh;
   }
   .details {
     text-align: center;
@@ -491,8 +504,12 @@ body {
   .proj2 {
     flex-direction: column;
   }
+  .proj1photoimg{
+    margin-top: 0.8vh;
+  }
   .proj2photoimg {
     padding: 0;
+    margin-top: 0.8vh;
   }
   .proj2matter {
     margin-left: 0%;
