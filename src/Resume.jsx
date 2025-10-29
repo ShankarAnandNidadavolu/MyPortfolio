@@ -17,12 +17,12 @@ export default function Resume() {
         <button
           onClick={() => (window.location.href = "/")}
           style={{
-            margin: "15px",
-            marginRight: "10px",
+            margin: "3vh 1vw",
+            marginRight: "1vw",
             color: "#fff",
             background: "#2196f3",
             border: "none",
-            padding: "8px 18px",
+            padding: ".6vh 1vw",
             borderRadius: "6px",
             cursor: "pointer",
           }}
@@ -34,12 +34,12 @@ export default function Resume() {
           href="/resume.pdf"
           download="Shankar_Nidadavolu_Resume.pdf"
           style={{
-            margin: "15px",
+            margin: "3vh 1vw",
             color: "#2196f3",
             textDecoration: "none",
             fontWeight: "600",
             border: "1px solid #2196f3",
-            padding: "8px 20px",
+            padding: ".6vh 2vw",
             borderRadius: "8px",
             transition: "0.3s",
           }}
