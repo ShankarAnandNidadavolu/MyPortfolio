@@ -27,7 +27,7 @@ body {
 .navbar {
   position: sticky;
   top: 20px;
-  height: 5rem;
+  height: 12vh;
   background: rgba(79, 79, 79, 0.137);
   backdrop-filter: blur(10px);
   color: white;
@@ -413,6 +413,9 @@ body {
 }
 
 @media (max-width: 700px) {
+  .navbar{
+    height: 10vh;
+  }
   .firstbg {
     background-size: 100% 1200px;
   }
